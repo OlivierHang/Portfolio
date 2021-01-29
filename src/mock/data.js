@@ -4,7 +4,7 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Olivier | Developpeur Junior', // e.g: 'Name | Developer'
   lang: 'fr', // e.g: en, es, fr, jp
-  description: 'Portfolio de Olivier', // e.g: Welcome to my website
+  description: 'Portfolio de Olivier Hang, Developpeur', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -49,7 +49,7 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: `N'hésite pas à me contacter !`,
+  cta: `N'hésitez pas à me contacter !`,
   btn: 'E-mail',
   email: 'hang.oliver@gmail.com',
 };
