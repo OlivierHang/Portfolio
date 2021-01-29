@@ -9,18 +9,18 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: `Hello ! C'est`,
+  title: `Hello ! Je m'appelle`,
   name: 'Olivier',
-  subtitle: 'Developpeur Junior',
+  subtitle: `et je suis un Developpeur Junior`,
   cta: 'A propos de moi',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: '',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne: `Tout d'abord, je m'appelle Olivier Hang et je suis un développeur junior. Avant d'être développeur, je suis surtout une personne qui aime créer, apprendre et se surpasser.`,
+  paragraphTwo: `J'ai choisi la voie du développement informatique parce que ça me permet d'exprimer ma créativité, de me challenger au niveau technique et puis parce que je suis fasciné par toute les possibilités qu'offre l'informatique. J'ai donc naturellement un œil sur plusieurs domaines (IA, Logiciel, App mobiles, web ..).`,
+  paragraphThree: `Je suis aussi passionné de sport, que se soit le tennis, le football, le basket et bien d'autre. La musique est aussi une passion à moi et je souhaite également voyager à travers le monde, my english is not bad if you ask me ;).`,
   resume: 'resume', // if no resume, the button will not show up
 };
 
@@ -40,7 +40,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'gite/gite.png',
     title: `Gîte de Haute Montagne`,
-    info: `Application logiciel | C#.NET | SQL Server | WPF`,
+    info: `Application logiciel | C# .NET | SQL Server | WPF`,
     info2: 'Un back office pour gérer les réservations dans un Gîte de Haute Montagne',
     url: 'https://github.com/OlivierHang/Gite_montagne',
     repo: 'https://github.com/OlivierHang/Gite_montagne', // if no repo, the button will not show up
