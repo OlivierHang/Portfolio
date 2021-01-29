@@ -4,6 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
 import PortfolioContext from '../../context/context';
+import cv from '../../assets/CV_HANG_Olivier.pdf';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
@@ -25,7 +26,7 @@ const About = () => {
   return (
     <section id="about">
       <Container>
-        <Title title="About Me" />
+        <Title title="A propos de moi" />
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
@@ -54,9 +55,9 @@ const About = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="cta-btn cta-btn--resume"
-                      href={resume}
+                      href={cv}
                     >
-                      Resume
+                      MON CV
                     </a>
                   </span>
                 )}
