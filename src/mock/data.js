@@ -20,7 +20,7 @@ export const aboutData = {
   img: '',
   paragraphOne: `Tout d'abord, je m'appelle Olivier Hang et je suis un développeur junior. Avant d'être développeur, je suis surtout une personne qui aime créer, apprendre et se surpasser.`,
   paragraphTwo: `J'ai choisi la voie du développement informatique parce que ça me permet d'exprimer ma créativité, de me challenger au niveau technique et puis parce que je suis fasciné par toute les possibilités qu'offre l'informatique. J'ai donc naturellement un œil sur plusieurs domaines (IA, Logiciel, App mobiles, web ..).`,
-  paragraphThree: `Je suis aussi passionné de sport, que se soit le tennis, le football, le basket et bien d'autre. La musique est aussi une passion à moi et je souhaite également voyager à travers le monde, my english is not bad if you ask me ;).`,
+  paragraphThree: `Je suis aussi passionné de sport, que se soit le tennis, le football, le basket et bien d'autre. La musique est aussi une passion à moi et je souhaite également voyager à travers le monde, my english is not bad if you ask me. So don't be shy and ask me ;).`,
   resume: 'resume', // if no resume, the button will not show up
 };
 
